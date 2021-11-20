@@ -1,0 +1,10 @@
+.navItem {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.navBtn {
+  margin-left: calc(100% - 56px)
+}

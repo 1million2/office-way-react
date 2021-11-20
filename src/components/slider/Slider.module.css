@@ -1,0 +1,22 @@
+.sliderBody {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.slider1 {
+  max-height: 400px;
+  height: 50vw;
+  background: url(./slider1.jpg) center no-repeat;
+  background-size: cover;
+}
+.slider2 {
+  max-height: 400px;
+  height: 50vw;
+  background: url(./slider2.jpg) center no-repeat;
+  background-size: cover;
+}
+.slider3 {
+  max-height: 400px;
+  height: 50vw;
+  background: url(./slider3.jpg) center no-repeat;
+  background-size: cover;
+}

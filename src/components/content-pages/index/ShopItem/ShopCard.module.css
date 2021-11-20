@@ -1,0 +1,33 @@
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cardImg {
+  position: relative;
+}
+.cardBody:hover .cardImg::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
+  background: linear-gradient(to top, #000000b8, transparent);
+}
+.price {
+  opacity: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
+  transition: .3s;
+}
+.cardBody:hover .price{
+  opacity: 1;
+}
